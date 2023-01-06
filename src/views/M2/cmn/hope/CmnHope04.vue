@@ -53,14 +53,14 @@ export default {
 </script>
 <template>
   <div id="nav">
-    <div class="nav full internal-link" @click="this.pageGoBack('cmn-prophet-index')">
+    <div class="nav full internal-link" @click="this.pageGoBack('cmn-hope-index')">
         <img src="@/assets/images/ribbons/mc2back.png" class="nav full" />
     </div>
 </div>
 <div class="page_content ltr">
 <div class="block ltr">
-                        <div class="chapter_number ltr"><h1>7.</h1></div>
-                        <div class="chapter_title ltr"><h1>耶稣是有大能的主</h1></div>
+                        <div class="chapter_number ltr"><h1>4.</h1></div>
+                        <div class="chapter_title ltr"><h1>盼望带来饶恕</h1></div>
                     </div>
 <div id="showVideoOptions"></div>
   <div class="lesson"><img class="lesson-icon" src="@/assets/images/standard/look-back.png" />
@@ -111,25 +111,23 @@ export default {
 
 <h2>查考圣经 一起发现圣经中的宝藏</h2>
 
-<h3>阅读经文</h3>
+<h3>故事背景</h3>
 
-<p>读出经文路加福音5：17-26两遍，其他人静听。</p>
+<h3>阅读圣经</h3>
 
+<p>朗读或默读马太福音18：21-35两遍，其他人静听。</p>
 
-
-<button id="Button0" type="button" class="collapsible bible">读两遍 路加福音 5:17-26</button><div class="collapsed" id ="Text0">
+<button id="Button0" type="button" class="collapsible bible">读两遍 马太福音 18:21-35</button><div class="collapsed" id ="Text0">
 <!-- begin bible -->
 
 <div><!-- begin bible -->
-<div class="passage-text">
-<div class="passage-content passage-class-0">
-<div class="version-CUVMPS result-text-style-normal text-html">
-<h3>医治瘫子</h3>
+<h3>饶恕七十个七次</h3>
 
-<p><sup class="versenum">17&nbsp;</sup>有一天，耶稣教训人，有法利赛人和教法师在旁边坐着，他们是从<span class="double-underline place">加利利</span>各乡村和<span class="double-underline place">犹太</span>并<span class="double-underline place">耶路撒冷</span>来的。主的能力与耶稣同在，使他能医治病人。 <sup class="versenum">18&nbsp;</sup>有人用褥子抬着一个瘫子，要抬进去放在耶稣面前， <sup class="versenum">19&nbsp;</sup>却因人多，寻不出法子抬进去，就上了房顶，从瓦间把他连褥子缒到当中，正在耶稣面前。 <sup class="versenum">20&nbsp;</sup>耶稣见他们的信心，就对瘫子说：<span class="woj">&ldquo;你的罪赦了！&rdquo;</span> <sup class="versenum">21&nbsp;</sup>文士和法利赛人就议论说：&ldquo;这说僭妄话的是谁？除了神以外，谁能赦罪呢？&rdquo; <sup class="versenum">22&nbsp;</sup>耶稣知道他们所议论的，就说：<span class="woj">&ldquo;你们心里议论的是什么呢？</span> <sup class="versenum">23&nbsp;</sup><span class="woj">或说&lsquo;你的罪赦了&rsquo;，或说&lsquo;你起来行走&rsquo;，哪一样容易呢？</span> <sup class="versenum">24&nbsp;</sup><span class="woj">但要叫你们知道，人子在地上有赦罪的权柄。&rdquo;</span>就对瘫子说：<span class="woj">&ldquo;我吩咐你，起来，拿你的褥子回家去吧！&rdquo;</span> <sup class="versenum">25&nbsp;</sup>那人当众人面前立刻起来，拿着他所躺卧的褥子回家去，归荣耀于神。 <sup class="versenum">26&nbsp;</sup>众人都惊奇，也归荣耀于神，并且满心惧怕，说：&ldquo;我们今日看见非常的事了！&rdquo;</p>
-</div>
-</div>
-</div>
+<p><sup class="versenum">21&nbsp;</sup>那时，<u class="person underline">彼得</u>进前来，对耶稣说：&ldquo;主啊，我弟兄得罪我，我当饶恕他几次呢？到七次可以吗？&rdquo;<sup class="versenum">22&nbsp;</sup>耶稣说：&ldquo;我对你说，不是到七次，乃是到七十个七次。<sup class="versenum">23&nbsp;</sup>天国好像一个王要和他仆人算账。<sup class="versenum">24&nbsp;</sup>才算的时候，有人带了一个欠一千万银子的来。<sup class="versenum">25&nbsp;</sup>因为他没有什么偿还之物，主人吩咐把他和他妻子儿女并一切所有的都卖了偿还。<sup class="versenum">26&nbsp;</sup>那仆人就俯伏拜他，说：&lsquo;主啊，宽容我！将来我都要还清。&rsquo;<sup class="versenum">27&nbsp;</sup>那仆人的主人就动了慈心，把他释放了，并且免了他的债。</p>
+
+<h3>不怜悯人的必不蒙怜悯</h3>
+
+<p><sup class="versenum">28&nbsp;</sup>&ldquo;那仆人出来，遇见他的一个同伴欠他十两银子，便揪着他，掐住他的喉咙，说：&lsquo;你把所欠的还我！&rsquo;<sup class="versenum">29&nbsp;</sup>他的同伴就俯伏央求他，说：&lsquo;宽容我吧！将来我必还清。&rsquo;<sup class="versenum">30&nbsp;</sup>他不肯，竟去把他下在监里，等他还了所欠的债。<sup class="versenum">31&nbsp;</sup>众同伴看见他所做的事，就甚忧愁，去把这事都告诉了主人。<sup class="versenum">32&nbsp;</sup>于是主人叫了他来，对他说：&lsquo;你这恶奴才！你央求我，我就把你所欠的都免了。<sup class="versenum">33&nbsp;</sup>你不应当怜恤你的同伴，像我怜恤你吗？&rsquo;<sup class="versenum">34&nbsp;</sup>主人就大怒，把他交给掌刑的，等他还清了所欠的债。<sup class="versenum">35&nbsp;</sup>你们各人若不从心里饶恕你的弟兄，我天父也要这样待你们了。&rdquo;</p>
 <!-- end bible --></div>
 <!-- end bible -->
 
@@ -138,14 +136,18 @@ export default {
 </div>
 
 
+<button id="MC2/cmn/video/hope/04.mp4" type="button" class="external-movie">
+         观看&nbsp;马太福音 18:21-35&nbsp;</button>
+    <div class="collapsed"></div>
 
 <h2>探索与讨论</h2>
 
 <ul>
-	<li>在这个故事中什么引起了你的注意?</li>
-	<li>你认为这个故事的中心思想是什么？</li>
-	<li>关于神我们学到了什么</li>
-	<li>关于人和神的关系我们学到了什么？</li>
+	<li>在这个故事中有什么地方引起了你的注意，为什么?</li>
+	<li>从耶稣身上我们学到了什么?</li>
+	<li>从众人身上我们学到了什么?</li>
+	<li>这个故事中谁最让你感同身受，为什么？</li>
+	<li>如今有什么在拦阻你跟随耶稣？</li>
 </ul>
 
 <!-- begin note sdcard -->
@@ -161,7 +163,13 @@ export default {
 <!-- end note sdcard -->
 
 
+<h2>故事重述</h2>
 
+<ul>
+	<li>再一次读出这个故事，请小组中的一个人口头讲述这个故事。必要时小组其他成员可以根据需要做更正。</li>
+</ul>
+
+<h2>小结</h2>
 
 <div class="lesson">
 <p><img class="lesson-icon" src="@/assets/images/standard/look-forward.png" /></p>
@@ -169,12 +177,18 @@ export default {
 <div class="lesson-subtitle"><span lang="ZH-CN"><span>向前看</span></span></div>
 </div>
 
+<h2>福音行动</h2>
+
+<ul>
+	<li>结对一起练习讲述这个故事</li>
+</ul>
+
 <h2>一起选择要顺服的地方</h2>
 
 <ul>
-	<li>我们怎样可以顺服这个教训?</li>
-	<li>这个星期里有没有什么人需要我们实实在在服侍对方</li>
-	<li>本周你可以和谁分享这个故事?</li>
+	<li>我们怎样可以顺服这个教导?</li>
+	<li>这个星期里有没有什么人需要我们用单纯的方式服侍对方？</li>
+	<li>在你生命中你认为有谁需要听到这个故事?</li>
 </ul>
 
 <!-- begin note sdcard -->
@@ -190,11 +204,10 @@ export default {
 <!-- end note sdcard -->
 
 
-<h2>定好一个时间聚会准备学习下一个故事</h2>
+<h2>祷告</h2>
 
 <ul>
-	<li>下一个故事是关于耶稣被荣耀</li>
-	<li>下次你们想要什么时候聚会？</li>
+	<li>为着一起聚会的时间感谢神并祈求他帮助每一个人来更加认识他。</li>
 </ul>
 
 
@@ -212,7 +225,7 @@ export default {
 				<img  class="social" src="@/assets/images/standard/android.png" />
 			</td>
 
-			<td class="social" @click="share('lesson', '耶稣是有大能的主: ', '/content/M2/cmn/prophet/prophet07.html')">
+			<td class="social" @click="share('lesson', '盼望带来饶恕: ', '/content/M2/cmn/hope/hope04.html')">
 				<img class="social" src="@/assets/images/standard/Share.png" />
 			</td>
 		</tr>

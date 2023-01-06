@@ -53,14 +53,14 @@ export default {
 </script>
 <template>
   <div id="nav">
-    <div class="nav full internal-link" @click="this.pageGoBack('cmn-prophet-index')">
+    <div class="nav full internal-link" @click="this.pageGoBack('cmn-hope-index')">
         <img src="@/assets/images/ribbons/mc2back.png" class="nav full" />
     </div>
 </div>
 <div class="page_content ltr">
 <div class="block ltr">
                         <div class="chapter_number ltr"><h1>7.</h1></div>
-                        <div class="chapter_title ltr"><h1>耶稣是有大能的主</h1></div>
+                        <div class="chapter_title ltr"><h1>盼望正在等候着你</h1></div>
                     </div>
 <div id="showVideoOptions"></div>
   <div class="lesson"><img class="lesson-icon" src="@/assets/images/standard/look-back.png" />
@@ -97,7 +97,7 @@ export default {
 	<li>上周你和谁分享了这个故事？</li>
 </ul>
 
-<h2>天父心意</h2>
+<h2>庆贺实践</h2>
 
 <p>鼓励彼此不断地顺服基督，并且互相提醒关于和他人分享这些故事的重要性。</p>
 
@@ -111,25 +111,19 @@ export default {
 
 <h2>查考圣经 一起发现圣经中的宝藏</h2>
 
-<h3>阅读经文</h3>
+<h3>故事背景</h3>
 
-<p>读出经文路加福音5：17-26两遍，其他人静听。</p>
+<h3>阅读圣经</h3>
 
+<p>朗读或默读路加福音15:11-32两遍，其他人静听。</p>
 
-
-<button id="Button0" type="button" class="collapsible bible">读两遍 路加福音 5:17-26</button><div class="collapsed" id ="Text0">
+<button id="Button0" type="button" class="collapsible bible">读两遍 路加福音 15:11-32</button><div class="collapsed" id ="Text0">
 <!-- begin bible -->
 
 <div><!-- begin bible -->
-<div class="passage-text">
-<div class="passage-content passage-class-0">
-<div class="version-CUVMPS result-text-style-normal text-html">
-<h3>医治瘫子</h3>
+<h3>浪子的比喻</h3>
 
-<p><sup class="versenum">17&nbsp;</sup>有一天，耶稣教训人，有法利赛人和教法师在旁边坐着，他们是从<span class="double-underline place">加利利</span>各乡村和<span class="double-underline place">犹太</span>并<span class="double-underline place">耶路撒冷</span>来的。主的能力与耶稣同在，使他能医治病人。 <sup class="versenum">18&nbsp;</sup>有人用褥子抬着一个瘫子，要抬进去放在耶稣面前， <sup class="versenum">19&nbsp;</sup>却因人多，寻不出法子抬进去，就上了房顶，从瓦间把他连褥子缒到当中，正在耶稣面前。 <sup class="versenum">20&nbsp;</sup>耶稣见他们的信心，就对瘫子说：<span class="woj">&ldquo;你的罪赦了！&rdquo;</span> <sup class="versenum">21&nbsp;</sup>文士和法利赛人就议论说：&ldquo;这说僭妄话的是谁？除了神以外，谁能赦罪呢？&rdquo; <sup class="versenum">22&nbsp;</sup>耶稣知道他们所议论的，就说：<span class="woj">&ldquo;你们心里议论的是什么呢？</span> <sup class="versenum">23&nbsp;</sup><span class="woj">或说&lsquo;你的罪赦了&rsquo;，或说&lsquo;你起来行走&rsquo;，哪一样容易呢？</span> <sup class="versenum">24&nbsp;</sup><span class="woj">但要叫你们知道，人子在地上有赦罪的权柄。&rdquo;</span>就对瘫子说：<span class="woj">&ldquo;我吩咐你，起来，拿你的褥子回家去吧！&rdquo;</span> <sup class="versenum">25&nbsp;</sup>那人当众人面前立刻起来，拿着他所躺卧的褥子回家去，归荣耀于神。 <sup class="versenum">26&nbsp;</sup>众人都惊奇，也归荣耀于神，并且满心惧怕，说：&ldquo;我们今日看见非常的事了！&rdquo;</p>
-</div>
-</div>
-</div>
+<p><sup class="versenum">11&nbsp;</sup>耶稣又说：&ldquo;一个人有两个儿子。<sup class="versenum">12&nbsp;</sup>小儿子对父亲说：&lsquo;父亲，请你把我应得的家业分给我。&rsquo;他父亲就把产业分给他们。<sup class="versenum">13&nbsp;</sup>过了不多几日，小儿子就把他一切所有的都收拾起来，往远方去了。在那里任意放荡，浪费资财。<sup class="versenum">14&nbsp;</sup>既耗尽了一切所有的，又遇着那地方大遭饥荒，就穷苦起来。<sup class="versenum">15&nbsp;</sup>于是去投靠那地方的一个人，那人打发他到田里去放猪。<sup class="versenum">16&nbsp;</sup>他恨不得拿猪所吃的豆荚充饥，也没有人给他。<sup class="versenum">17&nbsp;</sup>他醒悟过来，就说：&lsquo;我父亲有多少的雇工，口粮有余，我倒在这里饿死吗？<sup class="versenum">18&nbsp;</sup>我要起来，到我父亲那里去，向他说：&ldquo;父亲，我得罪了天，又得罪了你。<sup class="versenum">19&nbsp;</sup>从今以后，我不配称为你的儿子，把我当做一个雇工吧！&rdquo;&rsquo;<sup class="versenum">20&nbsp;</sup>于是起来，往他父亲那里去。相离还远，他父亲看见，就动了慈心，跑去抱着他的颈项，连连与他亲嘴。<sup class="versenum">21&nbsp;</sup>儿子说：&lsquo;父亲，我得罪了天，又得罪了你。从今以后，我不配称为你的儿子。&rsquo;<sup class="versenum">22&nbsp;</sup>父亲却吩咐仆人说：&lsquo;把那上好的袍子快拿出来给他穿，把戒指戴在他指头上，把鞋穿在他脚上，<sup class="versenum">23&nbsp;</sup>把那肥牛犊牵来宰了，我们可以吃喝快乐！<sup class="versenum">24&nbsp;</sup>因为我这个儿子是死而复活，失而又得的。&rsquo;他们就快乐起来。<sup class="versenum">25&nbsp;</sup>那时，大儿子正在田里。他回来，离家不远，听见作乐跳舞的声音，<sup class="versenum">26&nbsp;</sup>便叫过一个仆人来，问是什么事。<sup class="versenum">27&nbsp;</sup>仆人说：&lsquo;你兄弟来了，你父亲因为得他无灾无病地回来，把肥牛犊宰了。&rsquo;<sup class="versenum">28&nbsp;</sup>大儿子却生气，不肯进去。他父亲就出来劝他。<sup class="versenum">29&nbsp;</sup>他对父亲说：&lsquo;我服侍你这多年，从来没有违背过你的命，你并没有给我一只山羊羔，叫我和朋友一同快乐。<sup class="versenum">30&nbsp;</sup>但你这个儿子和娼妓吞尽了你的产业，他一来了，你倒为他宰了肥牛犊！&rsquo;<sup class="versenum">31&nbsp;</sup>父亲对他说：&lsquo;儿啊！你常和我同在，我一切所有的都是你的。<sup class="versenum">32&nbsp;</sup>只是你这个兄弟是死而复活、失而又得的，所以我们理当欢喜快乐。&rsquo;&rdquo;</p>
 <!-- end bible --></div>
 <!-- end bible -->
 
@@ -138,14 +132,18 @@ export default {
 </div>
 
 
+<button id="MC2/cmn/video/hope/07.mp4" type="button" class="external-movie">
+         观看&nbsp;路加福音 15:11-32&nbsp;</button>
+    <div class="collapsed"></div>
 
 <h2>探索与讨论</h2>
 
 <ul>
-	<li>在这个故事中什么引起了你的注意?</li>
-	<li>你认为这个故事的中心思想是什么？</li>
-	<li>关于神我们学到了什么</li>
-	<li>关于人和神的关系我们学到了什么？</li>
+	<li>在这个故事中有什么地方引起了你的注意，为什么?</li>
+	<li>从耶稣身上我们学到了什么?</li>
+	<li>从众人身上我们学到了什么?</li>
+	<li>这个故事中谁最让你感同身受，为什么？</li>
+	<li>如今有什么在拦阻你跟随耶稣？</li>
 </ul>
 
 <!-- begin note sdcard -->
@@ -161,7 +159,13 @@ export default {
 <!-- end note sdcard -->
 
 
+<h2>故事重述</h2>
 
+<ul>
+	<li>再一次读出这个故事，请小组中的一个人口头讲述这个故事。必要时小组其他成员可以根据需要做更正。</li>
+</ul>
+
+<h2>小结</h2>
 
 <div class="lesson">
 <p><img class="lesson-icon" src="@/assets/images/standard/look-forward.png" /></p>
@@ -169,12 +173,18 @@ export default {
 <div class="lesson-subtitle"><span lang="ZH-CN"><span>向前看</span></span></div>
 </div>
 
+<h2>福音行动</h2>
+
+<ul>
+	<li>结对一起练习讲述这个故事</li>
+</ul>
+
 <h2>一起选择要顺服的地方</h2>
 
 <ul>
-	<li>我们怎样可以顺服这个教训?</li>
-	<li>这个星期里有没有什么人需要我们实实在在服侍对方</li>
-	<li>本周你可以和谁分享这个故事?</li>
+	<li>我们怎样可以顺服这个教导?</li>
+	<li>这个星期里有没有什么人需要我们用单纯的方式服侍对方？</li>
+	<li>在你生命中你认为有谁需要听到这个故事?</li>
 </ul>
 
 <!-- begin note sdcard -->
@@ -190,11 +200,10 @@ export default {
 <!-- end note sdcard -->
 
 
-<h2>定好一个时间聚会准备学习下一个故事</h2>
+<h2>祷告</h2>
 
 <ul>
-	<li>下一个故事是关于耶稣被荣耀</li>
-	<li>下次你们想要什么时候聚会？</li>
+	<li>为着一起聚会的时间感谢神并祈求他帮助每一个人来更加认识他。</li>
 </ul>
 
 
@@ -212,7 +221,7 @@ export default {
 				<img  class="social" src="@/assets/images/standard/android.png" />
 			</td>
 
-			<td class="social" @click="share('lesson', '耶稣是有大能的主: ', '/content/M2/cmn/prophet/prophet07.html')">
+			<td class="social" @click="share('lesson', '盼望正在等候着你: ', '/content/M2/cmn/hope/hope07.html')">
 				<img class="social" src="@/assets/images/standard/Share.png" />
 			</td>
 		</tr>

@@ -63,7 +63,7 @@ export default {
                         <div class="chapter_title ltr"><h1>我们有一个选择</h1></div>
                     </div>
 <div id="showVideoOptions"></div>
-  <div class="lesson"><img class="lesson-icon" src="@/assets/images/standard/mc2back.png" />
+  <div class="lesson"><img class="lesson-icon" src="@/assets/images/standard/look-back.png" />
 <div class="lesson-subtitle"><span lang="ZH-CN">向后看</span></div>
 </div>
 
@@ -78,7 +78,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -105,7 +105,7 @@ export default {
 </ul>
 </div>
 
-<div class="lesson"><img class="lesson-icon" src="@/assets//content/M2/images/standard/mc2up.png" />
+<div class="lesson"><img class="lesson-icon" src="@/assets/images/standard/look-up.png" />
 <div class="lesson-subtitle"><span lang="ZH-CN"><span>向上看</span></span></div>
 </div>
 
@@ -157,7 +157,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -172,7 +172,7 @@ export default {
 
 
 <div class="lesson">
-<p><img class="lesson-icon" src="@/assets//content/M2/images/standard/mc2forward.png" /></p>
+<p><img class="lesson-icon" src="@/assets/images/standard/look-forward.png" /></p>
 
 <div class="lesson-subtitle"><span lang="ZH-CN"><span>向前看</span></span></div>
 </div>
@@ -186,7 +186,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"

@@ -53,14 +53,14 @@ export default {
 </script>
 <template>
   <div id="nav">
-    <div class="nav full internal-link" @click="this.pageGoBack('cmn-prophet-index')">
+    <div class="nav full internal-link" @click="this.pageGoBack('cmn-hope-index')">
         <img src="@/assets/images/ribbons/mc2back.png" class="nav full" />
     </div>
 </div>
 <div class="page_content ltr">
 <div class="block ltr">
-                        <div class="chapter_number ltr"><h1>7.</h1></div>
-                        <div class="chapter_title ltr"><h1>耶稣是有大能的主</h1></div>
+                        <div class="chapter_number ltr"><h1>6.</h1></div>
+                        <div class="chapter_title ltr"><h1>从死里复活的盼望</h1></div>
                     </div>
 <div id="showVideoOptions"></div>
   <div class="lesson"><img class="lesson-icon" src="@/assets/images/standard/look-back.png" />
@@ -97,7 +97,7 @@ export default {
 	<li>上周你和谁分享了这个故事？</li>
 </ul>
 
-<h2>天父心意</h2>
+<h2>庆贺实践</h2>
 
 <p>鼓励彼此不断地顺服基督，并且互相提醒关于和他人分享这些故事的重要性。</p>
 
@@ -111,25 +111,23 @@ export default {
 
 <h2>查考圣经 一起发现圣经中的宝藏</h2>
 
-<h3>阅读经文</h3>
+<h3>故事背景</h3>
 
-<p>读出经文路加福音5：17-26两遍，其他人静听。</p>
+<h3>阅读圣经</h3>
 
+<p>朗读或默读路加福音24：1-20两遍，其他人静听。</p>
 
-
-<button id="Button0" type="button" class="collapsible bible">读两遍 路加福音 5:17-26</button><div class="collapsed" id ="Text0">
+<button id="Button0" type="button" class="collapsible bible">读两遍 路加福音 24:1-20</button><div class="collapsed" id ="Text0">
 <!-- begin bible -->
 
 <div><!-- begin bible -->
-<div class="passage-text">
-<div class="passage-content passage-class-0">
-<div class="version-CUVMPS result-text-style-normal text-html">
-<h3>医治瘫子</h3>
+<h3>从死里复活</h3>
 
-<p><sup class="versenum">17&nbsp;</sup>有一天，耶稣教训人，有法利赛人和教法师在旁边坐着，他们是从<span class="double-underline place">加利利</span>各乡村和<span class="double-underline place">犹太</span>并<span class="double-underline place">耶路撒冷</span>来的。主的能力与耶稣同在，使他能医治病人。 <sup class="versenum">18&nbsp;</sup>有人用褥子抬着一个瘫子，要抬进去放在耶稣面前， <sup class="versenum">19&nbsp;</sup>却因人多，寻不出法子抬进去，就上了房顶，从瓦间把他连褥子缒到当中，正在耶稣面前。 <sup class="versenum">20&nbsp;</sup>耶稣见他们的信心，就对瘫子说：<span class="woj">&ldquo;你的罪赦了！&rdquo;</span> <sup class="versenum">21&nbsp;</sup>文士和法利赛人就议论说：&ldquo;这说僭妄话的是谁？除了神以外，谁能赦罪呢？&rdquo; <sup class="versenum">22&nbsp;</sup>耶稣知道他们所议论的，就说：<span class="woj">&ldquo;你们心里议论的是什么呢？</span> <sup class="versenum">23&nbsp;</sup><span class="woj">或说&lsquo;你的罪赦了&rsquo;，或说&lsquo;你起来行走&rsquo;，哪一样容易呢？</span> <sup class="versenum">24&nbsp;</sup><span class="woj">但要叫你们知道，人子在地上有赦罪的权柄。&rdquo;</span>就对瘫子说：<span class="woj">&ldquo;我吩咐你，起来，拿你的褥子回家去吧！&rdquo;</span> <sup class="versenum">25&nbsp;</sup>那人当众人面前立刻起来，拿着他所躺卧的褥子回家去，归荣耀于神。 <sup class="versenum">26&nbsp;</sup>众人都惊奇，也归荣耀于神，并且满心惧怕，说：&ldquo;我们今日看见非常的事了！&rdquo;</p>
-</div>
-</div>
-</div>
+<p><sup class="versenum">1 </sup>七日的头一日，黎明的时候，那些妇女带着所预备的香料来到坟墓前，<sup class="versenum">2&nbsp;</sup>看见石头已经从坟墓滚开了。<sup class="versenum">3&nbsp;</sup>她们就进去，只是不见主耶稣的身体。<sup class="versenum">4&nbsp;</sup>正在猜疑之间，忽然有两个人站在旁边，衣服放光。<sup class="versenum">5&nbsp;</sup>妇女们惊怕，将脸伏地。那两个人就对她们说：&ldquo;为什么在死人中找活人呢？<sup class="versenum">6&nbsp;</sup>他不在这里，已经复活了。当记念他还在加利利的时候怎样告诉你们，<sup class="versenum">7&nbsp;</sup>说：&lsquo;人子必须被交在罪人手里，钉在十字架上，第三日复活。&rsquo;&rdquo;<sup class="versenum">8&nbsp;</sup>她们就想起耶稣的话来，<sup class="versenum">9&nbsp;</sup>便从坟墓那里回去，把这一切事告诉十一个使徒和其余的人。<sup class="versenum">10&nbsp;</sup>那告诉使徒的就是抹大拉的<u class="person underline">马利亚</u>和<u class="person underline">约亚拿</u>，并<u class="person underline">雅各</u>的母亲<u class="person underline">马利亚</u>，还有与她们在一处的妇女。<sup class="versenum">11&nbsp;</sup>她们这些话使徒以为是胡言，就不相信。<sup class="versenum">12&nbsp;</sup><u class="person underline">彼得</u>起来，跑到坟墓前，低头往里看，见细麻布独在一处，就回去了，心里稀奇所成的事。</p>
+
+<h3>耶稣与两个行路的谈论</h3>
+
+<p><sup class="versenum">13&nbsp;</sup>正当那日，门徒中有两个人往一个村子去。这村子名叫以马忤斯，离耶路撒冷约有二十五里。<sup class="versenum">14&nbsp;</sup>他们彼此谈论所遇见的这一切事。<sup class="versenum">15&nbsp;</sup>正谈论相问的时候，耶稣亲自就近他们，和他们同行，<sup class="versenum">16&nbsp;</sup>只是他们的眼睛迷糊了，不认识他。<sup class="versenum">17&nbsp;</sup>耶稣对他们说：&ldquo;你们走路彼此谈论的是什么事呢？&rdquo;他们就站住，脸上带着愁容。<sup class="versenum">18&nbsp;</sup>二人中有一个名叫<u class="person underline">革流巴</u>的回答说：&ldquo;你在耶路撒冷作客，还不知道这几天在那里所出的事吗？&rdquo;<sup class="versenum">19&nbsp;</sup>耶稣说：&ldquo;什么事呢？&rdquo;他们说：&ldquo;就是拿撒勒人耶稣的事。他是个先知，在神和众百姓面前说话行事都有大能，<sup class="versenum">20&nbsp;</sup>祭司长和我们的官府竟把他解去，定了死罪，钉在十字架上。</p>
 <!-- end bible --></div>
 <!-- end bible -->
 
@@ -138,14 +136,18 @@ export default {
 </div>
 
 
+<button id="MC2/cmn/video/hope/06.mp4" type="button" class="external-movie">
+         观看&nbsp;路加福音 24:1-20&nbsp;</button>
+    <div class="collapsed"></div>
 
 <h2>探索与讨论</h2>
 
 <ul>
-	<li>在这个故事中什么引起了你的注意?</li>
-	<li>你认为这个故事的中心思想是什么？</li>
-	<li>关于神我们学到了什么</li>
-	<li>关于人和神的关系我们学到了什么？</li>
+	<li>在这个故事中有什么地方引起了你的注意，为什么?</li>
+	<li>从耶稣身上我们学到了什么?</li>
+	<li>从众人身上我们学到了什么?</li>
+	<li>这个故事中谁最让你感同身受，为什么？</li>
+	<li>如今有什么在拦阻你跟随耶稣？</li>
 </ul>
 
 <!-- begin note sdcard -->
@@ -161,7 +163,13 @@ export default {
 <!-- end note sdcard -->
 
 
+<h2>故事重述</h2>
 
+<ul>
+	<li>再一次读出这个故事，请小组中的一个人口头讲述这个故事。必要时小组其他成员可以根据需要做更正。</li>
+</ul>
+
+<h2>小结</h2>
 
 <div class="lesson">
 <p><img class="lesson-icon" src="@/assets/images/standard/look-forward.png" /></p>
@@ -169,12 +177,18 @@ export default {
 <div class="lesson-subtitle"><span lang="ZH-CN"><span>向前看</span></span></div>
 </div>
 
+<h2>福音行动</h2>
+
+<ul>
+	<li>结对一起练习讲述这个故事</li>
+</ul>
+
 <h2>一起选择要顺服的地方</h2>
 
 <ul>
-	<li>我们怎样可以顺服这个教训?</li>
-	<li>这个星期里有没有什么人需要我们实实在在服侍对方</li>
-	<li>本周你可以和谁分享这个故事?</li>
+	<li>我们怎样可以顺服这个教导?</li>
+	<li>这个星期里有没有什么人需要我们用单纯的方式服侍对方？</li>
+	<li>在你生命中你认为有谁需要听到这个故事?</li>
 </ul>
 
 <!-- begin note sdcard -->
@@ -190,11 +204,10 @@ export default {
 <!-- end note sdcard -->
 
 
-<h2>定好一个时间聚会准备学习下一个故事</h2>
+<h2>祷告</h2>
 
 <ul>
-	<li>下一个故事是关于耶稣被荣耀</li>
-	<li>下次你们想要什么时候聚会？</li>
+	<li>为着一起聚会的时间感谢神并祈求他帮助每一个人来更加认识他。</li>
 </ul>
 
 
@@ -212,7 +225,7 @@ export default {
 				<img  class="social" src="@/assets/images/standard/android.png" />
 			</td>
 
-			<td class="social" @click="share('lesson', '耶稣是有大能的主: ', '/content/M2/cmn/prophet/prophet07.html')">
+			<td class="social" @click="share('lesson', '从死里复活的盼望: ', '/content/M2/cmn/hope/hope06.html')">
 				<img class="social" src="@/assets/images/standard/Share.png" />
 			</td>
 		</tr>
