@@ -2,23 +2,23 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import notFound from "@/views/NotFound.vue";
 // see    https://stackoverflow.com/questions/46590760/vue-js-2-multiple-routing-files
-//import routesCmnHope from "./routesCmnHope.js";
+import routesCmnHope from "./routesCmnHope.js";
 import routesCmnMultiply1 from "./routesCmnMultiply1.js";
 import routesCmnMultiply2 from "./routesCmnMultiply2.js";
 import routesCmnMultiply3 from "./routesCmnMultiply3.js";
-//import routesCmnProphet from "./routesCmnProphet.js";
-//import routesCmnTc from "./routesCmnTc.js";
+import routesCmnProphet from "./routesCmnProphet.js";
+import routesCmnTc from "./routesCmnTc.js";
 
 const router = createRouter({
   history: createWebHistory(),
   routes: [
 
-    //...routesCmnHope,
+    ...routesCmnHope,
     ...routesCmnMultiply1,
     ...routesCmnMultiply2,
     ...routesCmnMultiply3,
-    //...routesCmnProphet,
-    // ...routesCmnTc,
+    ...routesCmnProphet,
+     ...routesCmnTc,
 
      {
       path: "/",
