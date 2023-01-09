@@ -20,9 +20,9 @@ async function shareLesson(lesson, url){
     let site_url = 'https://app.mc2.online' + url
     console.log(site_url)
     await Share.share({
-    title: 'Here is the link to MC2',
+    title: '这是MC2的链接',
     text: lesson,
     url: site_url,
-    dialogTitle: 'Share this page',
+    dialogTitle: '分享此页面',
     });
 }

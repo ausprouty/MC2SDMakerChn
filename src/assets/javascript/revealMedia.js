@@ -73,7 +73,7 @@ export async function useRevealMedia() {
             }
         }).catch(error=>{
             if (this.classList.contains('active') ){
-              content.innerHTML = filePath + 'was not found on SD Card'
+              content.innerHTML = filePath + ' 未在 SD 卡上找到'
               content.classList.remove('collapsed')
             }
             else{
