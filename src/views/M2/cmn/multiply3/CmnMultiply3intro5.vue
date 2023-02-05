@@ -3,9 +3,14 @@ import SQLiteService from '@/services/SQLiteService.js'
 import { useFindSummaries, useFindCollapsible, usePopUp} from "@/assets/javascript/revealText.js"
 import { useRevealMedia } from "@/assets/javascript/revealMedia.js"
 import { useShare} from "@/assets/javascript/share.js"
+import VueImageZoomer from '@/components/VueImageZoomer.vue'
+import '@/assets/styles/vueImageZoomer.css';
 
 
 export default {
+  components: {
+    VueImageZoomer
+  },
    methods:{
     async addNote(noteid){
        var noteText = document.getElementById(noteid).value
@@ -74,8 +79,8 @@ export default {
 <p class="forward">   
     <vue-image-zoomer
     regular="images/zoom/cmn/custom/image5.png" 
-    zoom="images/zoom/cmn/custom/image5.png" :zoom-amount="3" img-class="img-fluid" alt="s=">
-    <img src=@/assets/images/cmn/custom/image5.png" img-class="img-fluid" />
+    zoom="images/zoom/cmn/custom/image5.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    <img src="@/assets/images/cmn/custom/image5.png" img-class="img-fluid" />
     </vue-image-zoomer></p>
 
 <p class="forward">&nbsp;</p>
@@ -83,8 +88,8 @@ export default {
 <p class="forward">   
     <vue-image-zoomer
     regular="images/zoom/cmn/custom/image6.png" 
-    zoom="images/zoom/cmn/custom/image6.png" :zoom-amount="3" img-class="img-fluid" alt="s=">
-    <img src=@/assets/images/cmn/custom/image6.png" img-class="img-fluid" />
+    zoom="images/zoom/cmn/custom/image6.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    <img src="@/assets/images/cmn/custom/image6.png" img-class="img-fluid" />
     </vue-image-zoomer></p>
 
 <p style="text-align:justify"><span><span><span><span><span lang="ZH-CN"><span style="background-color:white"><span><span style="color:black">保罗第三次宣教旅程，在以弗所写了哥林多前书，在马其顿写了哥林多后书，在哥林多写了罗马书：</span></span></span></span></span></span></span></span></p>

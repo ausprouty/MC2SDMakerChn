@@ -3,9 +3,14 @@ import SQLiteService from '@/services/SQLiteService.js'
 import { useFindSummaries, useFindCollapsible, usePopUp} from "@/assets/javascript/revealText.js"
 import { useRevealMedia } from "@/assets/javascript/revealMedia.js"
 import { useShare} from "@/assets/javascript/share.js"
+import VueImageZoomer from '@/components/VueImageZoomer.vue'
+import '@/assets/styles/vueImageZoomer.css';
 
 
 export default {
+  components: {
+    VueImageZoomer
+  },
    methods:{
     async addNote(noteid){
        var noteText = document.getElementById(noteid).value
@@ -86,7 +91,7 @@ export default {
     <vue-image-zoomer
     regular="images/zoom/cmn/multiply3/multiply3intro3.png" 
     zoom="images/zoom/cmn/multiply3/multiply3intro3.png" :zoom-amount="3" img-class="img-fluid" alt="">
-    <img src=@/assets/images/cmn/multiply3/multiply3intro3.png" img-class="img-fluid" />
+    <img src="@/assets/images/cmn/multiply3/multiply3intro3.png" img-class="img-fluid" />
     </vue-image-zoomer></p>
 
 <p class="forward">保罗第二次传道旅程，把福音传到了欧洲，先是马其顿后是希腊，在哥林多写了帖撒罗尼迦前书后书，加拉太书也可能是在哥林多所写：</p>
