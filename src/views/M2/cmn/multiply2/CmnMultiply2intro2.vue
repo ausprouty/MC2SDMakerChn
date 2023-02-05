@@ -60,7 +60,12 @@ export default {
 <div class="page_content ltr">
 <h1>阶段二 事工基础</h1>
 <div id="showVideoOptions"></div>
-  <p style="text-align:justify"><span class="zoom"><img alt="" src="@/assets/images/cmn/multiply2/M2P2.png" /></span></p>
+  <p style="text-align:justify">   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/multiply2/M2P2.png" 
+    zoom="images/zoom/cmn/multiply2/M2P2.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    <img src=@/assets/images/cmn/multiply2/M2P2.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <p style="text-align:justify">&nbsp;</p>
 

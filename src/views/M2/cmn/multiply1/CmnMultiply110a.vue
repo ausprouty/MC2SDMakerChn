@@ -68,7 +68,7 @@ export default {
 <p class="forward">（信耶稣之前，你对属灵的事情，如对神、对永恒、对未来、对罪、对审判、对基督教&hellip;等等的看法如何？你对你的人生觉得如何？你的生命态度为何？&hellip;）</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -85,7 +85,7 @@ export default {
 <p class="forward">（什么事引起你渴慕追求属灵的真理？你怎样接触福音？什么信息/内容使你相信耶稣基督能拯救你？那段经文深深打动你的心？你怎么做出信主的决定?...）</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -102,7 +102,7 @@ export default {
 <p class="forward">（ 信了耶稣后，你的价值观有何改变？你与耶稣的关系如何？你对属灵事物有何新的看法？你的属灵生命如何成长？你对亲朋邻舍的救恩有何新的看法？&hellip;）</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"

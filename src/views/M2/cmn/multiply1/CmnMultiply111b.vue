@@ -63,7 +63,12 @@ export default {
                         <div class="chapter_title ltr"><h1>处理在分享《四件事》时不同的反应</h1></div>
                     </div>
 <div id="showVideoOptions"></div>
-  <p><img alt="" src="@/assets/images/cmn/multiply1/M1L11b.png" /></p>
+  <p>   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/multiply1/M1L11b.png" 
+    zoom="images/zoom/cmn/multiply1/M1L11b.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    <img src=@/assets/images/cmn/multiply1/M1L11b.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 
 <!-- begin mc2 sdcard languageFooter -->

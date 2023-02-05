@@ -153,7 +153,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -215,7 +215,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -246,14 +246,19 @@ export default {
 	<li class="forward">本周把《哥林多后书》阅读一遍，将心得写下，下周小组分享。下图书卷图表仅供参考。</li>
 </ul>
 
-<p class="forward"><img src="@/assets/images/cmn/custom/image(8).png" /></p>
+<p class="forward">   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/custom/image8.png" 
+    zoom="images/zoom/cmn/custom/image8.png" :zoom-amount="3" img-class="img-fluid" alt="s=">
+    <img src=@/assets/images/cmn/custom/image8.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <ul class="forward">
 	<li class="forward">花3分钟写下你在本课的学习心得，或是你未来一周可能有的其他行动点。</li>
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"

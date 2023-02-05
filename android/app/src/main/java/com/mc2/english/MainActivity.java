@@ -1,4 +1,4 @@
-package com.mc2.english;
+package com.mc2.cmn;
 
 import com.getcapacitor.BridgeActivity;
 

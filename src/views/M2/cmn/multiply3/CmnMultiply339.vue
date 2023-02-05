@@ -167,7 +167,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -192,9 +192,10 @@ export default {
 <div id="Summary0" class="summary"><h2>+ 小结</h2></div>
 <div class="collapsed" id ="Text0">
 <!-- end default revealSummary -->
+
 <ul>
-	
 	<li class="nobreak-final-final">以弗所这个城市到处是行邪术的人。主借着保罗医病赶鬼向人显示祂的权能胜过所有其他的能力，正如主之前在大使命中提到的（<span class="popup-link" @click = "popUp('pop8')"> 太28:18-20</span>）。
+
 	<div class="popup invisible" id="pop8"><!-- begin bible -->
 	<p><sup class="versenum">18&nbsp;</sup>耶稣进前来，对他们说：&ldquo;天上地下所有的权柄都赐给我了。<sup class="versenum">19&nbsp;</sup>所以你们要去，使万民做我的门徒，奉父、子、圣灵的名给他们施洗，<sup class="versenum">20&nbsp;</sup>凡我所吩咐你们的，都教训他们遵守。我就常与你们同在，直到世界的末了。&rdquo;</p>
 	<!-- end bible --></div>
@@ -236,7 +237,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -262,14 +263,19 @@ export default {
 	<li class="forward">本周把《哥林多前书》阅读一遍，将心得写下，下周小组分享。下图书卷图表仅供参考。</li>
 </ul>
 
-<p class="forward"><img src="@/assets/images/cmn/custom/image(7).png" /></p>
+<p class="forward">   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/custom/image7.png" 
+    zoom="images/zoom/cmn/custom/image7.png" :zoom-amount="3" img-class="img-fluid" alt="s=">
+    <img src=@/assets/images/cmn/custom/image7.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <ul class="forward">
 	<li class="forward">花3分钟写下你在本课的学习心得，或是你未来一周可能有的其他行动点。</li>
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"

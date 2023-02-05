@@ -60,7 +60,12 @@ export default {
 <div class="page_content ltr">
 <h1>阶段四 倍增领袖</h1>
 <div id="showVideoOptions"></div>
-  <p><span class="zoom"><img alt="" src="@/assets/images/cmn/multiply2/M2P4.png" /></span></p>
+  <p>   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/multiply2/M2P4.png" 
+    zoom="images/zoom/cmn/multiply2/M2P4.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    <img src=@/assets/images/cmn/multiply2/M2P4.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <ul>
 	<li class="nobreak-final-final">这段时期为期大约15个月，是从耶稣设立十二使徒开始，使徒在一大群工人中成为&ldquo;受训中的领袖&rdquo;。当时还有更多的追随者和慕道友（<span class="popup-link" @click = "popUp('pop1')"> 路6:12-19</span>）。

@@ -172,7 +172,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -243,7 +243,12 @@ export default {
 	<li class="indent2">读到两个圆圈&ldquo;自我管理的生命&rdquo;与&ldquo;基督管理的生命&rdquo;时，先暂停，解释及归纳两个问题可能有的三种回答。（可翻阅附录#11.2：处理在分享《四件事》时不同的反应）</li>
 </ul>
 
-<p class="indent2"><img alt="" src="@/assets/images/cmn/multiply1/M1L11.png" /></p>
+<p class="indent2">   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/multiply1/M1L11.png" 
+    zoom="images/zoom/cmn/multiply1/M1L11.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    <img src=@/assets/images/cmn/multiply1/M1L11.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <ul class="forward">
 	<li class="indent3">哪一个圆圈代表你现在的生命？</li>
@@ -310,7 +315,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"

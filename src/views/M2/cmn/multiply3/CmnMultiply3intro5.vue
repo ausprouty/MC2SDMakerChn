@@ -71,11 +71,21 @@ export default {
 41.&nbsp;&nbsp; &nbsp;回程坚固教会&mdash;&mdash;马其顿、亚该亚（徒20:1-12）<br />
 42.&nbsp;&nbsp; &nbsp;招聚坚固领袖&mdash;&mdash;以弗所教会领袖（徒20:13-38）</p>
 
-<p class="forward"><img src="@/assets/images/cmn/custom/image(5).png" /></p>
+<p class="forward">   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/custom/image5.png" 
+    zoom="images/zoom/cmn/custom/image5.png" :zoom-amount="3" img-class="img-fluid" alt="s=">
+    <img src=@/assets/images/cmn/custom/image5.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <p class="forward">&nbsp;</p>
 
-<p class="forward"><img src="@/assets/images/cmn/custom/image(6).png" /></p>
+<p class="forward">   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/custom/image6.png" 
+    zoom="images/zoom/cmn/custom/image6.png" :zoom-amount="3" img-class="img-fluid" alt="s=">
+    <img src=@/assets/images/cmn/custom/image6.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <p style="text-align:justify"><span><span><span><span><span lang="ZH-CN"><span style="background-color:white"><span><span style="color:black">保罗第三次宣教旅程，在以弗所写了哥林多前书，在马其顿写了哥林多后书，在哥林多写了罗马书：</span></span></span></span></span></span></span></span></p>
 

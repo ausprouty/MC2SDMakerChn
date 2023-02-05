@@ -185,7 +185,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -213,7 +213,12 @@ export default {
 <div class="collapsed" id ="Text3">
 <!-- end default revealSummary -->
 
-<p class="up">圣灵引导初代信徒固定聚集，一起敬拜、祷告、团契、研读神的话、彼此相爱，并得着那些还不认识基督的人。使徒行传中各个地方的人，他们成为基督的跟随者时，也同样彼此委身。这就是对地方教会的描述！<img alt="" src="@/assets/images/cmn/multiply1/M1L13.png" /></p>
+<p class="up">圣灵引导初代信徒固定聚集，一起敬拜、祷告、团契、研读神的话、彼此相爱，并得着那些还不认识基督的人。使徒行传中各个地方的人，他们成为基督的跟随者时，也同样彼此委身。这就是对地方教会的描述！   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/multiply1/M1L13.png" 
+    zoom="images/zoom/cmn/multiply1/M1L13.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    <img src=@/assets/images/cmn/multiply1/M1L13.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <ul class="up">
 	<li class="up">健康教会：徒2群体（<span class="popup-link" @click = "popUp('pop3')"> 徒2:42-47</span>，
@@ -330,7 +335,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"

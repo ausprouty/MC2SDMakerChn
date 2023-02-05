@@ -87,7 +87,12 @@ export default {
 
 <p>&nbsp;</p>
 
-<p><img alt="" src="@/assets/images/cmn/multiply1/M1L12a.png" /></p>
+<p>   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/multiply1/M1L12a.png" 
+    zoom="images/zoom/cmn/multiply1/M1L12a.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    <img src=@/assets/images/cmn/multiply1/M1L12a.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <h2 class="forward">可用来分享福音的视频：</h2>
 

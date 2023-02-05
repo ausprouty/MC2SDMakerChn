@@ -146,7 +146,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -203,7 +203,7 @@ export default {
 <p class="indent2">在现实生活中同样充满各样的挑战或患难，当众人惊慌失措的时候，我们是否能因为我们的神而和别人有不一样的地方？不但带给人希望，并且因此看到在我们里面的神？为什么？</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -230,7 +230,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"

@@ -517,7 +517,7 @@ export default {
 <p>1. 你最喜欢这篇信息的什么？（什么引起你的注意？</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -532,7 +532,7 @@ export default {
 <p>2. 为什么？</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -547,7 +547,7 @@ export default {
 <p>3. 我会向谁传递这篇信息？</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"

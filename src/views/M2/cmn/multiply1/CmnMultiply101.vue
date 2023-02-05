@@ -81,7 +81,12 @@ export default {
 	<li class="back">造就过程：三分法</li>
 </ul>
 
-<p class="back"><img src="@/assets/images/cmn/custom/image(12).png" /></p>
+<p class="back">   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/custom/image12.png" 
+    zoom="images/zoom/cmn/custom/image12.png" :zoom-amount="3" img-class="img-fluid" alt="s=">
+    <img src=@/assets/images/cmn/custom/image12.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <h2 class="back">小组角色与期望</h2>
 
@@ -111,6 +116,7 @@ export default {
 <div id="Summary0" class="summary"><h2 class="back">+ 天父心意&mdash;&mdash;体恤神的心意，成为我们行事的动机与激励</h2></div>
 <div class="collapsed" id ="Text0">
 <!-- end default revealSummary -->
+
 <p>圣经告诉我们，上帝爱世人，并愿意所有的人都能接受福音，而且能够明白真理（提摩太前书2:3）。上帝爱你，也爱你身边的人，而且要使用你将关乎耶稣的故事告诉他们，使他们也可以跟随耶稣。当我们一起踏上这个旅程，你将会看到上帝借着我们影响和改变身边的人，这是多么令人兴奋的事。</p>
 
 </div>
@@ -163,7 +169,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -191,6 +197,7 @@ export default {
 </ul></div>
 <div class="collapsed" id ="Text1">
 <!-- end default revealSummary -->
+
 <p class="up">耶稣是好牧人，在十字架上为你的罪牺牲，舍去生命。身为主耶稣的羊，祂要你明白你有永生，必永不灭亡。在祂手中你是安全的，没有人能够把你从祂手中夺去，就连撒旦也不能。因此在基督里我们有十分的保障和平安！</p>
 
 </div>
@@ -199,6 +206,7 @@ export default {
 <div id="Summary2" class="summary"><h2 class="up">+ 经文背诵&mdash;&mdash;将神话语藏在心里，成为我们行事的准则</h2></div>
 <div class="collapsed" id ="Text2">
 <!-- end default revealSummary -->
+
 <p>约翰福音10:29-30</p>
 
 <p class="up"><sup>29</sup>我父把羊赐给我，他比万有都大，谁也不能从我父手里把他们夺去。<sup>30</sup>我与父原为一。</p>
@@ -223,10 +231,11 @@ export default {
 <div id="Summary3" class="summary"><p class="flush">+ 1) &ldquo;怎样知道基督已在你的生命中&rdquo;</p></div>
 <div class="collapsed" id ="Text3">
 <!-- end default revealSummary -->
+
 <p class="indent">a) 第一个问题：&ldquo;你有没有请基督进入你的生命？&rdquo;</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -241,7 +250,7 @@ export default {
 <p class="indent">b) 第二个问题：&ldquo;根据启示录3:20的应许，现在基督是否在你心里？&rdquo;</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -260,7 +269,7 @@ export default {
 <p class="indent">&ldquo;基督应许进入你的生命，他会失信吗？&rdquo;为什么？</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -275,7 +284,7 @@ export default {
 <p class="indent">&ldquo;你有什么根据知道神答应了你的祷告？&rdquo;</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -295,6 +304,7 @@ export default {
 <div id="Summary4" class="summary"><p class="indent">+ 2) &ldquo;圣经应许凡接受基督的人都有永生&rdquo;</p></div>
 <div class="collapsed" id ="Text4">
 <!-- end default revealSummary -->
+
 <p class="indent2">请读出约翰一书5:11-13</p>
 
 <p class="indent2"><sup>11</sup>这见证就是神赐给我们永生，这永生也是在他儿子里面。<sup>12</sup>人有了神的儿子就有生命；没有神的儿子就没有生命。<sup>13</sup>我将这些话写给你们信奉神儿子之名的人，要叫你们知道自己有永生。</p>
@@ -304,7 +314,7 @@ export default {
 <p class="indent3">1) 神给了我们什么？</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -319,7 +329,7 @@ export default {
 <p class="indent3">2) 在哪里可以得到永生？</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -334,7 +344,7 @@ export default {
 <p class="indent3">3) 你有没有神的儿子？</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -349,7 +359,7 @@ export default {
 <p class="indent3">4) 如果你有了神的儿子，你就有了什么？</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -364,7 +374,7 @@ export default {
 <p class="indent3">5) 你怎么知道自己有永生？</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -384,6 +394,7 @@ export default {
 <div id="Summary5" class="summary"><p class="indent">+ 3) 要常常感谢神，因为基督已进入你的生命。</p></div>
 <div class="collapsed" id ="Text5">
 <!-- end default revealSummary -->
+
 <p class="indent2">希伯来书13:5b 说：&ldquo;因为主曾说：&ldquo;我总不撇下你，也不丢弃你。&rdquo;</p>
 
 <p class="indent2">试回答以下的问题：</p>
@@ -391,7 +402,7 @@ export default {
 <p class="indent3">1) 当你亲自接受基督之后，他会离开你吗？为什么？</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -406,7 +417,7 @@ export default {
 <p class="indent3">2) 既然他永不离开你，那你需要几次邀请基督进入你的生命？</p>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -426,6 +437,7 @@ export default {
 <div id="Summary6" class="summary"><p class="indent">+ 4) 不要依靠感觉</p></div>
 <div class="collapsed" id ="Text6">
 <!-- end default revealSummary -->
+
 <p class="indent2">读出&ldquo;不要依靠感觉&rdquo;这一段，试用自己的话说明你对图表的理解。</p>
 
 <p class="indent2"><img alt="Train" src="@/assets/images/cmn/multiply1/M1L2.png" /></p>
@@ -438,6 +450,7 @@ export default {
 <div id="Summary7" class="summary"><p class="indent">+ 5) 属灵生命长进的建议</p></div>
 <div class="collapsed" id ="Text7">
 <!-- end default revealSummary -->
+
 <ul class="forward">
 	<li class="forward">感谢耶稣基督在我们生命所成就的事
 	<ul class="forward">
@@ -474,7 +487,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"

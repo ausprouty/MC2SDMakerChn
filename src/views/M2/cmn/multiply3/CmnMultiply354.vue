@@ -155,7 +155,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -241,7 +241,7 @@ export default {
 	<p>在你我的生活中，是否也有看似很不顺的时候？从保罗的被囚生涯中我们是否学到怎样来看待和使用现处的困境？为什么？</p>
 
 	<!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -266,7 +266,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"

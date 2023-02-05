@@ -60,7 +60,12 @@ export default {
 <div class="page_content ltr">
 <h1>阶段三 事工训练与向外拓展</h1>
 <div id="showVideoOptions"></div>
-  <p><span class="zoom"><img alt="" src="@/assets/images/cmn/multiply2/M2P3.png" /></span></p>
+  <p>   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/multiply2/M2P3.png" 
+    zoom="images/zoom/cmn/multiply2/M2P3.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    <img src=@/assets/images/cmn/multiply2/M2P3.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <ul>
 	<li class="nobreak-final-final">这段时期持续6至9个月，从耶稣到迦百农开始。在此期间，耶稣挑战四位渔夫，他们是自耶稣受洗就跟随的门徒（<span class="popup-link" @click = "popUp('pop1')"> 可1:16-20</span>）。

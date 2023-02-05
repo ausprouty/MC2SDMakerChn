@@ -79,7 +79,12 @@ export default {
 12.&nbsp;&nbsp; &nbsp;司提反辩护&mdash;&mdash;逼迫中卫道（徒7:1-53）<br />
 13.&nbsp;&nbsp; &nbsp;司提反殉道&mdash;&mdash;逼迫促扩展（徒7:54-8:3）</p>
 
-<p class="indent2"><img src="@/assets/images/cmn/custom/image(1).png" /></p>
+<p class="indent2">   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/custom/image1.png" 
+    zoom="images/zoom/cmn/custom/image1.png" :zoom-amount="3" img-class="img-fluid" alt="s=">
+    <img src=@/assets/images/cmn/custom/image1.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 
 <!-- begin mc2 sdcard languageFooter -->

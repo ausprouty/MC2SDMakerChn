@@ -60,7 +60,12 @@ export default {
 <div class="page_content ltr">
 <h1>阶段一 预备</h1>
 <div id="showVideoOptions"></div>
-  <p><span class="zoom"><img src="@/assets/images/cmn/custom/image(13).png" /></span></p>
+  <p>   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/custom/image13.png" 
+    zoom="images/zoom/cmn/custom/image13.png" :zoom-amount="3" img-class="img-fluid" alt="s=">
+    <img src=@/assets/images/cmn/custom/image13.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <p>这段时期从耶稣在公元前4年左右出生到大约30岁，其特点如下：</p>
 
@@ -87,7 +92,12 @@ export default {
 
 <p>&nbsp;</p>
 
-<p><span class="zoom"><img alt="Map1" src="@/assets/images/cmn/multiply2/M2map.png" /></span></p>
+<p>   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/multiply2/M2map.png" 
+    zoom="images/zoom/cmn/multiply2/M2map.png" :zoom-amount="3" img-class="img-fluid" alt="Map1">
+    <img src=@/assets/images/cmn/multiply2/M2map.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <p>&nbsp;</p>
 

@@ -160,7 +160,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -185,9 +185,10 @@ export default {
 <div id="Summary0" class="summary"><h2>+ 小结</h2></div>
 <div class="collapsed" id ="Text0">
 <!-- end default revealSummary -->
+
 <ul>
-	
 	<li class="nobreak-final-final">犹太信徒坚持归信的外邦人若不受割礼，就不能得救。割礼是上帝在旧约时代与犹太人立约的记号，因此他们坚持耶稣的门徒也要受割礼才得救恩。尽管他们已经了解上帝的救恩是赐给万民的（<span class="popup-link" @click = "popUp('pop5')"> 徒11:18</span>），
+
 	<div class="popup invisible" id="pop5"><!-- begin bible -->
 	<p><sup class="versenum">18&nbsp;</sup>众人听见这话，就不言语了，只归荣耀于神，说：&ldquo;这样看来，神也赐恩给外邦人，叫他们悔改得生命了。&rdquo;</p>
 	<!-- end bible --></div>
@@ -219,7 +220,7 @@ export default {
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"
@@ -244,14 +245,19 @@ export default {
 	<li class="forward">本周把《加拉太书》阅读一遍，将心得写下，下周小组分享。下图书卷图表仅供参考。</li>
 </ul>
 
-<p class="forward"><img alt="" src="@/assets/images/cmn/multiply3/M3L30Chart.png" /></p>
+<p class="forward">   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/multiply3/M3L30Chart.png" 
+    zoom="images/zoom/cmn/multiply3/M3L30Chart.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    <img src=@/assets/images/cmn/multiply3/M3L30Chart.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <ul class="forward">
 	<li class="forward">花3分钟写下你在本课的学习心得，或是你未来一周可能有的其他行动点。</li>
 </ul>
 
 <!-- begin note sdcard -->
-<div class="note-div">
+<div class="note-area">
     <form class="auto_submit_item">
       <textarea
         class="textarea resize-ta"

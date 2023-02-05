@@ -102,7 +102,12 @@ export default {
 	</tbody>
 </table>
 
-<p><img src="@/assets/images/cmn/custom/image-20210215115024-1.png" /></p>
+<p>   
+    <vue-image-zoomer
+    regular="images/zoom/cmn/custom/image-20210215115024-1.png" 
+    zoom="images/zoom/cmn/custom/image-20210215115024-1.png" :zoom-amount="3" img-class="img-fluid" alt="s=">
+    <img src=@/assets/images/cmn/custom/image-20210215115024-1.png" img-class="img-fluid" />
+    </vue-image-zoomer></p>
 
 <p style="text-align:justify">&nbsp;</p>
 
