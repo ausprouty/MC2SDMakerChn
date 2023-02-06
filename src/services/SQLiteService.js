@@ -1,34 +1,43 @@
 import { CapacitorSQLite, SQLiteConnection } from "@capacitor-community/sqlite";
 
 export default {
-	async notes (route){
+	async notes (route) {
 
 		var source = localStorage.getItem('mc2NoteSource');
-		if (source == 'database'){
-			return await this.notesFromDatabase(route)
+		var data = []
+		if (source == 'database') {
+			data = await this.notesFromDatabase(route)
 		}
-		return this.notesFromLocalStorage(route)
+		else {
+			data = this.notesFromLocalStorage(route)
+		}
+		for (var i = 0; i < data.length; i++) {
+			var noteid = data[i].noteid
+			var height = this.calcNoteHeight(data[i].note)
+			document.getElementById(noteid).value = data[i].note
+			document.getElementById(noteid).style.height = height + 'px'
+		}
 	},
 
-	async addNote(noteid, route, noteText){
+	async addNote (noteid, route, noteText) {
 		var source = localStorage.getItem('mc2NoteSource');
-		if (source == 'database'){
+		if (source == 'database') {
 			return await this.addNoteToDatabase(noteid, route, noteText)
 		}
 		return this.addNoteToLocalStorage(noteid, route, noteText)
 	},
 
 
-	notesFromLocalStorage(route){
-		var notes = JSON.parse(localStorage.getItem('Notes-'+ route));
-		if (notes == null){
+	notesFromLocalStorage (route) {
+		var notes = JSON.parse(localStorage.getItem('Notes-' + route));
+		if (notes == null) {
 			notes = [];
 		}
 		return notes;
 	},
 
-    addNoteToLocalStorage (noteid, route, noteText ){
-       var height= this.calcNoteHeight(noteText)
+	addNoteToLocalStorage (noteid, route, noteText) {
+		var height = this.calcNoteHeight(noteText)
 		// resize note
 		document.getElementById(noteid).style.height = height + 'px'
 		// find ids of all textareas
@@ -47,33 +56,33 @@ export default {
 
 			notes[i] = entry
 		}
-		localStorage.setItem('Notes-'+ route, JSON.stringify(notes)) //put the object back
+		localStorage.setItem('Notes-' + route, JSON.stringify(notes)) //put the object back
 	},
-	async notesFromDatabase(route){
-			try {
-				const sqlite = new SQLiteConnection(CapacitorSQLite);
-				let db =  await this.openDatabase()
-				let query = 'SELECT * FROM notes WHERE page=?'
-				var res = await db.query(query,  [route])
-				await sqlite.closeConnection("db_mc2notes");
-				return res.values
-			} catch (err) {
-				alert (' error in SQLite Service Notes')
-				console.log(`Error: ${err}`);
-				throw new Error(`Error: ${err}`);
-			}
-	},
-	async addNoteToDatabase(noteid, route, noteText){
+	async notesFromDatabase (route) {
 		try {
 			const sqlite = new SQLiteConnection(CapacitorSQLite);
-			let db =  await this.openDatabase()
+			let db = await this.openDatabase()
+			let query = 'SELECT * FROM notes WHERE page=?'
+			var res = await db.query(query, [route])
+			await sqlite.closeConnection("db_mc2notes");
+			return res.values
+		} catch (err) {
+			alert(' error in SQLite Service Notes')
+			console.log(`Error: ${err}`);
+			throw new Error(`Error: ${err}`);
+		}
+	},
+	async addNoteToDatabase (noteid, route, noteText) {
+		try {
+			const sqlite = new SQLiteConnection(CapacitorSQLite);
+			let db = await this.openDatabase()
 			let query = 'SELECT note FROM notes WHERE page=? AND noteid = ?'
 			let values = [route, noteid]
 			let res = await db.query(query, values);
 			if (res.values[0] !== undefined) {
 				query = 'UPDATE notes set note = ?  WHERE page=? AND noteid = ?'
 			}
-			else{
+			else {
 				query = 'INSERT INTO notes (note, page, noteid) VALUES (?, ?, ?)'
 			}
 			values = [noteText, route, noteid]
@@ -81,14 +90,14 @@ export default {
 			query = 'SELECT note FROM notes WHERE page=? AND noteid = ?'
 			values = [route, noteid]
 			res = await db.query(query, values);
-			return this.calcNoteHeight(res.values[0].note) +'px'
+			return this.calcNoteHeight(res.values[0].note) + 'px'
 
 		} catch (err) {
 			console.log(`Error: ${err}`);
 			throw new Error(`Error: ${err}`);
 		}
 	},
-	async openDatabase(){
+	async openDatabase () {
 		try {
 			const sqlite = new SQLiteConnection(CapacitorSQLite);
 			const ret = await sqlite.checkConnectionsConsistency();
@@ -110,24 +119,24 @@ export default {
 		}
 
 	},
-  // Dealing with Textarea Height
+	// Dealing with Textarea Height
 	// from https://css-tricks.com/auto-growing-inputs-textareas/
-	calcNoteHeight(value) {
-	let numberOfLineBreaks = (value.match(/\n/g) || []).length
-	// look for long lines
-	var longLines = 0
-	var extraLines = 0
-	var lineMax = window.innerWidth / 7
-	const line = value.split('/\n')
-	var len = line.length
-	for (var i = 0; i < len; i++) {
-		if (line[i].length > lineMax) {
-		extraLines = Math.round(line[i].length / lineMax)
-		longLines += extraLines
+	calcNoteHeight (value) {
+		let numberOfLineBreaks = (value.match(/\n/g) || []).length
+		// look for long lines
+		var longLines = 0
+		var extraLines = 0
+		var lineMax = window.innerWidth / 7
+		const line = value.split('/\n')
+		var len = line.length
+		for (var i = 0; i < len; i++) {
+			if (line[i].length > lineMax) {
+				extraLines = Math.round(line[i].length / lineMax)
+				longLines += extraLines
+			}
 		}
-	}
-	// min-height + lines x line-height + padding + border
-	let newHeight = 20 + (numberOfLineBreaks + longLines) * 20 + 12 + 2
-	return newHeight
+		// min-height + lines x line-height + padding + border
+		let newHeight = 20 + (numberOfLineBreaks + longLines) * 20 + 12 + 2
+		return newHeight
 	}
 }
