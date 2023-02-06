@@ -48,11 +48,7 @@ export default {
     useFindSummaries()
     useFindCollapsible()
     useRevealMedia()
-    let notes = await SQLiteService.notes(this.$route.name)
-    for (var i = 0; i< notes.length; i++){
-      var noteid = notes[i].noteid
-      document.getElementById(noteid).value =notes[i].note
-    }
+    await SQLiteService.notes(this.$route.name)
   },
 }
 </script>
@@ -93,11 +89,13 @@ export default {
 <p>&nbsp;</p>
 
 <p>   
+    <div class="zoom-image">
     <vue-image-zoomer
-    regular="images/zoom/cmn/multiply1/M1L12a.png" 
-    zoom="images/zoom/cmn/multiply1/M1L12a.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    regular="/images/zoom/cmn/multiply1/M1L12a.png" 
+    zoom="/images/zoom/cmn/multiply1/M1L12a.png" :zoom-amount="3" img-class="img-fluid" alt="">
     <img src="@/assets/images/cmn/multiply1/M1L12a.png" img-class="img-fluid" />
-    </vue-image-zoomer></p>
+    </vue-image-zoomer>
+    </div></p>
 
 <h2 class="forward">可用来分享福音的视频：</h2>
 

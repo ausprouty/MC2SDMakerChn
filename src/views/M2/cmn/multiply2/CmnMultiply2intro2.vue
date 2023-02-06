@@ -48,11 +48,7 @@ export default {
     useFindSummaries()
     useFindCollapsible()
     useRevealMedia()
-    let notes = await SQLiteService.notes(this.$route.name)
-    for (var i = 0; i< notes.length; i++){
-      var noteid = notes[i].noteid
-      document.getElementById(noteid).value =notes[i].note
-    }
+    await SQLiteService.notes(this.$route.name)
   },
 }
 </script>
@@ -66,11 +62,13 @@ export default {
 <h1>阶段二 事工基础</h1>
 <div id="showVideoOptions"></div>
   <p style="text-align:justify">   
+    <div class="zoom-image">
     <vue-image-zoomer
-    regular="images/zoom/cmn/multiply2/M2P2.png" 
-    zoom="images/zoom/cmn/multiply2/M2P2.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    regular="/images/zoom/cmn/multiply2/M2P2.png" 
+    zoom="/images/zoom/cmn/multiply2/M2P2.png" :zoom-amount="3" img-class="img-fluid" alt="">
     <img src="@/assets/images/cmn/multiply2/M2P2.png" img-class="img-fluid" />
-    </vue-image-zoomer></p>
+    </vue-image-zoomer>
+    </div></p>
 
 <p style="text-align:justify">&nbsp;</p>
 

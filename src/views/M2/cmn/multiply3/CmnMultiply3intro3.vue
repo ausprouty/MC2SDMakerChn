@@ -48,11 +48,7 @@ export default {
     useFindSummaries()
     useFindCollapsible()
     useRevealMedia()
-    let notes = await SQLiteService.notes(this.$route.name)
-    for (var i = 0; i< notes.length; i++){
-      var noteid = notes[i].noteid
-      document.getElementById(noteid).value =notes[i].note
-    }
+    await SQLiteService.notes(this.$route.name)
   },
 }
 </script>
@@ -80,18 +76,22 @@ export default {
 30.&nbsp;&nbsp; &nbsp;论外邦信主条件&mdash;&mdash;开放跨文化信仰（徒15:1-3）</p>
 
 <p class="indent2">   
+    <div class="zoom-image">
     <vue-image-zoomer
-    regular="images/zoom/cmn/custom/image2.png" 
-    zoom="images/zoom/cmn/custom/image2.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    regular="/images/zoom/cmn/custom/image2.png" 
+    zoom="/images/zoom/cmn/custom/image2.png" :zoom-amount="3" img-class="img-fluid" alt="">
     <img src="@/assets/images/cmn/custom/image2.png" img-class="img-fluid" />
-    </vue-image-zoomer></p>
+    </vue-image-zoomer>
+    </div></p>
 
 <p class="indent2">   
+    <div class="zoom-image">
     <vue-image-zoomer
-    regular="images/zoom/cmn/custom/image3.png" 
-    zoom="images/zoom/cmn/custom/image3.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    regular="/images/zoom/cmn/custom/image3.png" 
+    zoom="/images/zoom/cmn/custom/image3.png" :zoom-amount="3" img-class="img-fluid" alt="">
     <img src="@/assets/images/cmn/custom/image3.png" img-class="img-fluid" />
-    </vue-image-zoomer></p>
+    </vue-image-zoomer>
+    </div></p>
 
 <p style="text-align:justify"><span><span><span><span><span lang="ZH-CN"><span style="background-color:white"><span><span style="color:black">保罗第二次传道旅程，把福音传到了欧洲，先是马其顿后是希腊，在哥林多写了帖撒罗尼迦前书后书，加拉太书也可能是在哥林多所写：</span></span></span></span></span></span></span></span></p>
 

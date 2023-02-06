@@ -48,11 +48,7 @@ export default {
     useFindSummaries()
     useFindCollapsible()
     useRevealMedia()
-    let notes = await SQLiteService.notes(this.$route.name)
-    for (var i = 0; i< notes.length; i++){
-      var noteid = notes[i].noteid
-      document.getElementById(noteid).value =notes[i].note
-    }
+    await SQLiteService.notes(this.$route.name)
   },
 }
 </script>
@@ -66,11 +62,13 @@ export default {
 <h1>阶段四 倍增领袖</h1>
 <div id="showVideoOptions"></div>
   <p>   
+    <div class="zoom-image">
     <vue-image-zoomer
-    regular="images/zoom/cmn/multiply2/M2P4.png" 
-    zoom="images/zoom/cmn/multiply2/M2P4.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    regular="/images/zoom/cmn/multiply2/M2P4.png" 
+    zoom="/images/zoom/cmn/multiply2/M2P4.png" :zoom-amount="3" img-class="img-fluid" alt="">
     <img src="@/assets/images/cmn/multiply2/M2P4.png" img-class="img-fluid" />
-    </vue-image-zoomer></p>
+    </vue-image-zoomer>
+    </div></p>
 
 <ul>
 	<li class="nobreak-final-final">这段时期为期大约15个月，是从耶稣设立十二使徒开始，使徒在一大群工人中成为&ldquo;受训中的领袖&rdquo;。当时还有更多的追随者和慕道友（<span class="popup-link" @click = "popUp('pop1')"> 路6:12-19</span>）。

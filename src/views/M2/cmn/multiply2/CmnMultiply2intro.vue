@@ -48,11 +48,7 @@ export default {
     useFindSummaries()
     useFindCollapsible()
     useRevealMedia()
-    let notes = await SQLiteService.notes(this.$route.name)
-    for (var i = 0; i< notes.length; i++){
-      var noteid = notes[i].noteid
-      document.getElementById(noteid).value =notes[i].note
-    }
+    await SQLiteService.notes(this.$route.name)
   },
 }
 </script>
@@ -146,11 +142,13 @@ export default {
 <p>从耶稣一生和事工可以分成四个阶段，分别为：预备、事工基础、事工训练与向外拓张，并领袖倍增。（图表如下）&nbsp;&nbsp; &nbsp;</p>
 
 <p>   
+    <div class="zoom-image">
     <vue-image-zoomer
-    regular="images/zoom/cmn/multiply2/M2Periods.png" 
-    zoom="images/zoom/cmn/multiply2/M2Periods.png" :zoom-amount="3" img-class="img-fluid" alt="Periods of Jesus' ministry">
+    regular="/images/zoom/cmn/multiply2/M2Periods.png" 
+    zoom="/images/zoom/cmn/multiply2/M2Periods.png" :zoom-amount="3" img-class="img-fluid" alt="Periods of Jesus' ministry">
     <img src="@/assets/images/cmn/multiply2/M2Periods.png" img-class="img-fluid" />
-    </vue-image-zoomer></p>
+    </vue-image-zoomer>
+    </div></p>
 
 <p>&nbsp;&nbsp;</p>
 

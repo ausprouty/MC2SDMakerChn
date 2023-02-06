@@ -48,11 +48,7 @@ export default {
     useFindSummaries()
     useFindCollapsible()
     useRevealMedia()
-    let notes = await SQLiteService.notes(this.$route.name)
-    for (var i = 0; i< notes.length; i++){
-      var noteid = notes[i].noteid
-      document.getElementById(noteid).value =notes[i].note
-    }
+    await SQLiteService.notes(this.$route.name)
   },
 }
 </script>
@@ -88,11 +84,13 @@ export default {
 <p class="indent2">36. 会堂辩道策略&mdash;&mdash;哥林多（徒18:1-22） 149</p>
 
 <p class="forward">   
+    <div class="zoom-image">
     <vue-image-zoomer
-    regular="images/zoom/cmn/multiply3/multiply3intro3.png" 
-    zoom="images/zoom/cmn/multiply3/multiply3intro3.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    regular="/images/zoom/cmn/multiply3/multiply3intro3.png" 
+    zoom="/images/zoom/cmn/multiply3/multiply3intro3.png" :zoom-amount="3" img-class="img-fluid" alt="">
     <img src="@/assets/images/cmn/multiply3/multiply3intro3.png" img-class="img-fluid" />
-    </vue-image-zoomer></p>
+    </vue-image-zoomer>
+    </div></p>
 
 <p class="forward">保罗第二次传道旅程，把福音传到了欧洲，先是马其顿后是希腊，在哥林多写了帖撒罗尼迦前书后书，加拉太书也可能是在哥林多所写：</p>
 

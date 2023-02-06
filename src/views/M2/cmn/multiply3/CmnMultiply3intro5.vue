@@ -48,11 +48,7 @@ export default {
     useFindSummaries()
     useFindCollapsible()
     useRevealMedia()
-    let notes = await SQLiteService.notes(this.$route.name)
-    for (var i = 0; i< notes.length; i++){
-      var noteid = notes[i].noteid
-      document.getElementById(noteid).value =notes[i].note
-    }
+    await SQLiteService.notes(this.$route.name)
   },
 }
 </script>
@@ -77,20 +73,24 @@ export default {
 42.&nbsp;&nbsp; &nbsp;招聚坚固领袖&mdash;&mdash;以弗所教会领袖（徒20:13-38）</p>
 
 <p class="forward">   
+    <div class="zoom-image">
     <vue-image-zoomer
-    regular="images/zoom/cmn/custom/image5.png" 
-    zoom="images/zoom/cmn/custom/image5.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    regular="/images/zoom/cmn/custom/image5.png" 
+    zoom="/images/zoom/cmn/custom/image5.png" :zoom-amount="3" img-class="img-fluid" alt="">
     <img src="@/assets/images/cmn/custom/image5.png" img-class="img-fluid" />
-    </vue-image-zoomer></p>
+    </vue-image-zoomer>
+    </div></p>
 
 <p class="forward">&nbsp;</p>
 
 <p class="forward">   
+    <div class="zoom-image">
     <vue-image-zoomer
-    regular="images/zoom/cmn/custom/image6.png" 
-    zoom="images/zoom/cmn/custom/image6.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    regular="/images/zoom/cmn/custom/image6.png" 
+    zoom="/images/zoom/cmn/custom/image6.png" :zoom-amount="3" img-class="img-fluid" alt="">
     <img src="@/assets/images/cmn/custom/image6.png" img-class="img-fluid" />
-    </vue-image-zoomer></p>
+    </vue-image-zoomer>
+    </div></p>
 
 <p style="text-align:justify"><span><span><span><span><span lang="ZH-CN"><span style="background-color:white"><span><span style="color:black">保罗第三次宣教旅程，在以弗所写了哥林多前书，在马其顿写了哥林多后书，在哥林多写了罗马书：</span></span></span></span></span></span></span></span></p>
 

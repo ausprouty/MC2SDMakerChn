@@ -48,11 +48,7 @@ export default {
     useFindSummaries()
     useFindCollapsible()
     useRevealMedia()
-    let notes = await SQLiteService.notes(this.$route.name)
-    for (var i = 0; i< notes.length; i++){
-      var noteid = notes[i].noteid
-      document.getElementById(noteid).value =notes[i].note
-    }
+    await SQLiteService.notes(this.$route.name)
   },
 }
 </script>
@@ -219,11 +215,13 @@ export default {
 <!-- end default revealSummary -->
 
 <p class="up">圣灵引导初代信徒固定聚集，一起敬拜、祷告、团契、研读神的话、彼此相爱，并得着那些还不认识基督的人。使徒行传中各个地方的人，他们成为基督的跟随者时，也同样彼此委身。这就是对地方教会的描述！   
+    <div class="zoom-image">
     <vue-image-zoomer
-    regular="images/zoom/cmn/multiply1/M1L13.png" 
-    zoom="images/zoom/cmn/multiply1/M1L13.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    regular="/images/zoom/cmn/multiply1/M1L13.png" 
+    zoom="/images/zoom/cmn/multiply1/M1L13.png" :zoom-amount="3" img-class="img-fluid" alt="">
     <img src="@/assets/images/cmn/multiply1/M1L13.png" img-class="img-fluid" />
-    </vue-image-zoomer></p>
+    </vue-image-zoomer>
+    </div></p>
 
 <ul class="up">
 	<li class="up">健康教会：徒2群体（<span class="popup-link" @click = "popUp('pop3')"> 徒2:42-47</span>，

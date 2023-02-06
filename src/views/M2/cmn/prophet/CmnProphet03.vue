@@ -43,11 +43,7 @@ export default {
     useFindSummaries()
     useFindCollapsible()
     useRevealMedia()
-    let notes = await SQLiteService.notes(this.$route.name)
-    for (var i = 0; i< notes.length; i++){
-      var noteid = notes[i].noteid
-      document.getElementById(noteid).value =notes[i].note
-    }
+    await SQLiteService.notes(this.$route.name)
   },
 }
 </script>
@@ -115,8 +111,6 @@ export default {
 
 <p>读出经文创世记12：1-8，15：1-6，22:1-19两遍，其他人静听。</p>
 
-
-
 <button id="Button0" type="button" class="collapsible bible">读两遍 创世记 12:1-8</button><div class="collapsed" id ="Text0">
 <!-- begin bible -->
 
@@ -136,8 +130,6 @@ export default {
 
 </div>
 
-
-
 <button id="Button1" type="button" class="collapsible bible">读两遍 创世记 15:1-6</button><div class="collapsed" id ="Text1">
 <!-- begin bible -->
 
@@ -148,7 +140,7 @@ export default {
 <h3>神应许亚伯兰之后裔多如众星</h3>
 
 <p class="chapter-2"><sup class="versenum">1&nbsp;</sup>这事以后，耶和华在异象中有话对<u class="person underline">亚伯兰</u>说：&ldquo;<u class="person underline">亚伯兰</u>，你不要惧怕！我是你的盾牌，必大大地赏赐你。&rdquo; <sup class="versenum">2&nbsp;</sup><u class="person underline">亚伯兰</u>说：&ldquo;主耶和华啊，我既无子，你还赐我什么呢？并且要承受我家业的是<span class="double-underline place">大马士革</span>人<u class="person underline">以利以谢</u>。&rdquo; <sup class="versenum">3&nbsp;</sup><u class="person underline">亚伯兰</u>又说：&ldquo;你没有给我儿子，那生在我家中的人就是我的后嗣。&rdquo; <sup class="versenum">4&nbsp;</sup>耶和华又有话对他说：&ldquo;这人必不成为你的后嗣，你本身所生的才成为你的后嗣。&rdquo; <sup class="versenum">5&nbsp;</sup>于是领他走到外边，说：&ldquo;你向天观看，数算众星，能数得过来吗？&rdquo;又对他说：&ldquo;你的后裔将要如此。&rdquo; <sup class="versenum">6&nbsp;</sup><u class="person underline">亚伯兰</u>信耶和华，耶和华就以此为他的义。</p>
-<a class="full-chap-link" href="passage/?search=%E5%88%9B%E4%B8%96%E8%AE%B0+15&amp;version=CUVMPS" title="View Full Chapter">Read full chapter</a></div>
+</div>
 </div>
 </div>
 <!-- end bible --></div>
@@ -157,8 +149,6 @@ export default {
 <p class="bible"></p>
 
 </div>
-
-
 
 <button id="Button2" type="button" class="collapsible bible">读两遍 创世记 22:1-19</button><div class="collapsed" id ="Text2">
 <!-- begin bible -->
@@ -171,7 +161,7 @@ export default {
 
 <p class="chapter-2"><sup class="versenum">1&nbsp;</sup>这些事以后，神要试验<u class="person underline">亚伯拉罕</u>，就呼叫他说：&ldquo;<u class="person underline">亚伯拉罕</u>！&rdquo;他说：&ldquo;我在这里。&rdquo; <sup class="versenum">2&nbsp;</sup>神说：&ldquo;你带着你的儿子，就是你独生的儿子，你所爱的<u class="person underline">以撒</u>，往<span class="double-underline place">摩利亚</span>地去，在我所要指示你的山上，把他献为燔祭。&rdquo; <sup class="versenum">3&nbsp;</sup><u class="person underline">亚伯拉罕</u>清早起来，备上驴，带着两个仆人和他儿子<u class="person underline">以撒</u>，也劈好了燔祭的柴，就起身往神所指示他的地方去了。 <sup class="versenum">4&nbsp;</sup>到了第三日，<u class="person underline">亚伯拉罕</u>举目远远地看见那地方。 <sup class="versenum">5&nbsp;</sup><u class="person underline">亚伯拉罕</u>对他的仆人说：&ldquo;你们和驴在此等候，我与童子往那里去拜一拜，就回到你们这里来。&rdquo; <sup class="versenum">6&nbsp;</sup><u class="person underline">亚伯拉罕</u>把燔祭的柴放在他儿子<u class="person underline">以撒</u>身上，自己手里拿着火与刀，于是二人同行。 <sup class="versenum">7&nbsp;</sup><u class="person underline">以撒</u>对他父亲<u class="person underline">亚伯拉罕</u>说：&ldquo;父亲哪！&rdquo;<u class="person underline">亚伯拉罕</u>说：&ldquo;我儿，我在这里。&rdquo;<u class="person underline">以撒</u>说：&ldquo;请看，火与柴都有了，但燔祭的羊羔在哪里呢？&rdquo; <sup class="versenum">8&nbsp;</sup><u class="person underline">亚伯拉罕</u>说：&ldquo;我儿，神必自己预备做燔祭的羊羔。&rdquo;于是二人同行。</p>
 
-<p><sup class="versenum">9&nbsp;</sup>他们到了神所指示的地方，<u class="person underline">亚伯拉罕</u>在那里筑坛，把柴摆好，捆绑他的儿子<u class="person underline">以撒</u>，放在坛的柴上。 <sup class="versenum">10&nbsp;</sup><u class="person underline">亚伯拉罕</u>就伸手拿刀，要杀他的儿子。 <sup class="versenum">11&nbsp;</sup>耶和华的使者从天上呼叫他说：&ldquo;<u class="person underline">亚伯拉罕</u>！<u class="person underline">亚伯拉罕</u>！&rdquo;他说：&ldquo;我在这里。&rdquo; <sup class="versenum">12&nbsp;</sup>天使说：&ldquo;你不可在这童子身上下手，一点不可害他。现在我知道你是敬畏神的了，因为你没有将你的儿子，就是你独生的儿子，留下不给我。&rdquo; <sup class="versenum">13&nbsp;</sup><u class="person underline">亚伯拉罕</u>举目观看，不料，有一只公羊，两角扣在稠密的小树中。<u class="person underline">亚伯拉罕</u>就取了那只公羊来，献为燔祭，代替他的儿子。 <sup class="versenum">14&nbsp;</sup><u class="person underline">亚伯拉罕</u>给那地方起名叫<span class="double-underline place">耶和华以勒</span><sup class="footnote">[<a href="#fzh-CUVMPS-562a" title="See footnote a">a</a>]</sup>，直到今日人还说：&ldquo;在耶和华的山上必有预备。&rdquo; <sup class="versenum">15&nbsp;</sup>耶和华的使者第二次从天上呼叫<u class="person underline">亚伯拉罕</u>说： <sup class="versenum">16&nbsp;</sup>&ldquo;耶和华说：&lsquo;你既行了这事，不留下你的儿子，就是你独生的儿子，我便指着自己起誓说： <sup class="versenum">17&nbsp;</sup>论福，我必赐大福给你；论子孙，我必叫你的子孙多起来，如同天上的星，海边的沙；你子孙必得着仇敌的城门； <sup class="versenum">18&nbsp;</sup>并且地上万国都必因你的后裔得福，因为你听从了我的话。&rsquo;&rdquo; <sup class="versenum">19&nbsp;</sup>于是<u class="person underline">亚伯拉罕</u>回到他仆人那里，他们一同起身往<span class="double-underline place">别是巴</span>去，<u class="person underline">亚伯拉罕</u>就住在<span class="double-underline place">别是巴</span>。</p>
+<p><sup class="versenum">9&nbsp;</sup>他们到了神所指示的地方，<u class="person underline">亚伯拉罕</u>在那里筑坛，把柴摆好，捆绑他的儿子<u class="person underline">以撒</u>，放在坛的柴上。 <sup class="versenum">10&nbsp;</sup><u class="person underline">亚伯拉罕</u>就伸手拿刀，要杀他的儿子。 <sup class="versenum">11&nbsp;</sup>耶和华的使者从天上呼叫他说：&ldquo;<u class="person underline">亚伯拉罕</u>！<u class="person underline">亚伯拉罕</u>！&rdquo;他说：&ldquo;我在这里。&rdquo; <sup class="versenum">12&nbsp;</sup>天使说：&ldquo;你不可在这童子身上下手，一点不可害他。现在我知道你是敬畏神的了，因为你没有将你的儿子，就是你独生的儿子，留下不给我。&rdquo; <sup class="versenum">13&nbsp;</sup><u class="person underline">亚伯拉罕</u>举目观看，不料，有一只公羊，两角扣在稠密的小树中。<u class="person underline">亚伯拉罕</u>就取了那只公羊来，献为燔祭，代替他的儿子。 <sup class="versenum">14&nbsp;</sup><u class="person underline">亚伯拉罕</u>给那地方起名叫<span class="double-underline place">耶和华以勒</span>，直到今日人还说：&ldquo;在耶和华的山上必有预备。&rdquo; <sup class="versenum">15&nbsp;</sup>耶和华的使者第二次从天上呼叫<u class="person underline">亚伯拉罕</u>说： <sup class="versenum">16&nbsp;</sup>&ldquo;耶和华说：&lsquo;你既行了这事，不留下你的儿子，就是你独生的儿子，我便指着自己起誓说： <sup class="versenum">17&nbsp;</sup>论福，我必赐大福给你；论子孙，我必叫你的子孙多起来，如同天上的星，海边的沙；你子孙必得着仇敌的城门； <sup class="versenum">18&nbsp;</sup>并且地上万国都必因你的后裔得福，因为你听从了我的话。&rsquo;&rdquo; <sup class="versenum">19&nbsp;</sup>于是<u class="person underline">亚伯拉罕</u>回到他仆人那里，他们一同起身往<span class="double-underline place">别是巴</span>去，<u class="person underline">亚伯拉罕</u>就住在<span class="double-underline place">别是巴</span>。</p>
 <br />
 <!--end of footnotes--></div>
 </div>
@@ -182,8 +172,6 @@ export default {
 <p class="bible"></p>
 
 </div>
-
-
 
 <h2>探索与讨论</h2>
 
@@ -205,8 +193,6 @@ export default {
     </form>
 </div>
 <!-- end note sdcard -->
-
-
 
 
 <div class="lesson">

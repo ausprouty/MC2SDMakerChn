@@ -48,11 +48,7 @@ export default {
     useFindSummaries()
     useFindCollapsible()
     useRevealMedia()
-    let notes = await SQLiteService.notes(this.$route.name)
-    for (var i = 0; i< notes.length; i++){
-      var noteid = notes[i].noteid
-      document.getElementById(noteid).value =notes[i].note
-    }
+    await SQLiteService.notes(this.$route.name)
   },
 }
 </script>
@@ -66,11 +62,13 @@ export default {
 <h1>阶段三 事工训练与向外拓展</h1>
 <div id="showVideoOptions"></div>
   <p>   
+    <div class="zoom-image">
     <vue-image-zoomer
-    regular="images/zoom/cmn/multiply2/M2P3.png" 
-    zoom="images/zoom/cmn/multiply2/M2P3.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    regular="/images/zoom/cmn/multiply2/M2P3.png" 
+    zoom="/images/zoom/cmn/multiply2/M2P3.png" :zoom-amount="3" img-class="img-fluid" alt="">
     <img src="@/assets/images/cmn/multiply2/M2P3.png" img-class="img-fluid" />
-    </vue-image-zoomer></p>
+    </vue-image-zoomer>
+    </div></p>
 
 <ul>
 	<li class="nobreak-final-final">这段时期持续6至9个月，从耶稣到迦百农开始。在此期间，耶稣挑战四位渔夫，他们是自耶稣受洗就跟随的门徒（<span class="popup-link" @click = "popUp('pop1')"> 可1:16-20</span>）。

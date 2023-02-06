@@ -48,11 +48,7 @@ export default {
     useFindSummaries()
     useFindCollapsible()
     useRevealMedia()
-    let notes = await SQLiteService.notes(this.$route.name)
-    for (var i = 0; i< notes.length; i++){
-      var noteid = notes[i].noteid
-      document.getElementById(noteid).value =notes[i].note
-    }
+    await SQLiteService.notes(this.$route.name)
   },
 }
 </script>
@@ -252,11 +248,13 @@ export default {
 </ul>
 
 <p class="forward">   
+    <div class="zoom-image">
     <vue-image-zoomer
-    regular="images/zoom/cmn/custom/image8.png" 
-    zoom="images/zoom/cmn/custom/image8.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    regular="/images/zoom/cmn/custom/image8.png" 
+    zoom="/images/zoom/cmn/custom/image8.png" :zoom-amount="3" img-class="img-fluid" alt="">
     <img src="@/assets/images/cmn/custom/image8.png" img-class="img-fluid" />
-    </vue-image-zoomer></p>
+    </vue-image-zoomer>
+    </div></p>
 
 <ul class="forward">
 	<li class="forward">花3分钟写下你在本课的学习心得，或是你未来一周可能有的其他行动点。</li>

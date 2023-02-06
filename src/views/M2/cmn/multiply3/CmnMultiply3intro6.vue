@@ -48,11 +48,7 @@ export default {
     useFindSummaries()
     useFindCollapsible()
     useRevealMedia()
-    let notes = await SQLiteService.notes(this.$route.name)
-    for (var i = 0; i< notes.length; i++){
-      var noteid = notes[i].noteid
-      document.getElementById(noteid).value =notes[i].note
-    }
+    await SQLiteService.notes(this.$route.name)
   },
 }
 </script>
@@ -114,11 +110,13 @@ export default {
 <p style="text-align:left">行动计划表</p>
 
 <p style="text-align:left">   
+    <div class="zoom-image">
     <vue-image-zoomer
-    regular="images/zoom/cmn/custom/image10.png" 
-    zoom="images/zoom/cmn/custom/image10.png" :zoom-amount="3" img-class="img-fluid" alt="">
+    regular="/images/zoom/cmn/custom/image10.png" 
+    zoom="/images/zoom/cmn/custom/image10.png" :zoom-amount="3" img-class="img-fluid" alt="">
     <img src="@/assets/images/cmn/custom/image10.png" img-class="img-fluid" />
-    </vue-image-zoomer></p>
+    </vue-image-zoomer>
+    </div></p>
 
 <p style="text-align:justify">上图：保罗被押往罗马受审旅程：</p>
 
