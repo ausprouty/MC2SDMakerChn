@@ -14,9 +14,10 @@ export async function useRevealMedia() {
      else{
       console.log ('You are NOT authorized to see External Storage')
       askExternalMediaAuthorization()
-      hideMedia();;
+      hideMedia()
      }
   }).catch(error=>{
+      hideMedia()
       console.log("error - You can not check External Storage")
       console.log(error);
   });
